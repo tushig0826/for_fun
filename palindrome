@@ -1,0 +1,7 @@
+# Palindrome
+def palindrome(text):
+    text = text.replace(' ', '')
+    if len(text) > 1 and text.upper() == text[::-1].upper():
+        return "It is palindrome"
+    else:
+        return "It is not!"
